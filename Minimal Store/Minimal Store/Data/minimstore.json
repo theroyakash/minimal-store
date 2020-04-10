@@ -1,0 +1,50 @@
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Decoration",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Lamp",
+                "photoCredit": "Unsplash",
+                "price": 39.99,
+                "restrictions": ["AC"],
+                "Feature": "15 Watts per hour",
+                "description": "Value for your bucks. Blends right in your home with most other products. Uses 15 Watts per hour, so very energy efficient product"
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Chair",
+                "photoCredit": "Unsplash",
+                "price": 59.99,
+                "restrictions": ["SM", "SW"],
+                "Feature": "Foldable",
+                "description": "Foldable comfortable chair. Made out of woods and high quality plastics. For a $59.99 you will get 2 of this"
+            }
+        ]
+    },
+    {
+        "name": "Essentials",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+        "items": [
+            {
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+                "name": "Paper",
+                "photoCredit": "Unsplash",
+                "price": 4.99,
+                "restrictions": ["SM", "SN", "INJ"],
+                "Feature": "Diacetylmorphine: smack, horse, brown sugar, dope, H, junk, skag, skunk, white horse, China white; cheese (with OTC cold medicine and antihistamine)",
+                "description": "Scriptable very high quality paper imported from the South India.\n\nFor a cheap price of $4.99 you will get a Rim of paper."
+            },
+            {
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+                "name": "White Ceramic Mug",
+                "photoCredit": "Unsplash",
+                "price": 11.99,
+                "Feature": "Durable",
+                "restrictions": ["SW", "SM"],
+                "description": "White Ceramic mugs. For a $11.99 you will get a (pair) of mugs. Limited time deal. Buy Now"
+            }
+        ]
+    }
+]

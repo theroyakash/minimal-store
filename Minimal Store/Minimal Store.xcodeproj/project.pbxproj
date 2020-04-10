@@ -13,6 +13,7 @@
 		AC83BBED244063EE0027DDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC83BBEC244063EE0027DDC6 /* Assets.xcassets */; };
 		AC83BBF0244063EE0027DDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC83BBEF244063EE0027DDC6 /* Preview Assets.xcassets */; };
 		AC83BBF3244063EE0027DDC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC83BBF1244063EE0027DDC6 /* LaunchScreen.storyboard */; };
+		AC87A72024406E89007F1550 /* minimstore.json in Resources */ = {isa = PBXBuildFile; fileRef = AC87A71F24406E89007F1550 /* minimstore.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC83BBEF244063EE0027DDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC83BBF2244063EE0027DDC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC83BBF4244063EE0027DDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC87A71F24406E89007F1550 /* minimstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = minimstore.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,9 @@
 		AC83BBE5244063ED0027DDC6 /* Minimal Store */ = {
 			isa = PBXGroup;
 			children = (
-				AC83BBE6244063ED0027DDC6 /* AppDelegate.swift */,
-				AC83BBE8244063ED0027DDC6 /* SceneDelegate.swift */,
-				AC83BBEA244063ED0027DDC6 /* ContentView.swift */,
+				AC87A72224406EA3007F1550 /* Delegates */,
+				AC87A72124406E8F007F1550 /* Data */,
+				AC87A72324406EAC007F1550 /* Views */,
 				AC83BBEC244063EE0027DDC6 /* Assets.xcassets */,
 				AC83BBF1244063EE0027DDC6 /* LaunchScreen.storyboard */,
 				AC83BBF4244063EE0027DDC6 /* Info.plist */,
@@ -73,6 +75,31 @@
 				AC83BBEF244063EE0027DDC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC87A72124406E8F007F1550 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AC87A71F24406E89007F1550 /* minimstore.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AC87A72224406EA3007F1550 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BBE6244063ED0027DDC6 /* AppDelegate.swift */,
+				AC83BBE8244063ED0027DDC6 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		AC87A72324406EAC007F1550 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BBEA244063ED0027DDC6 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +162,7 @@
 			files = (
 				AC83BBF3244063EE0027DDC6 /* LaunchScreen.storyboard in Resources */,
 				AC83BBF0244063EE0027DDC6 /* Preview Assets.xcassets in Resources */,
+				AC87A72024406E89007F1550 /* minimstore.json in Resources */,
 				AC83BBED244063EE0027DDC6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
