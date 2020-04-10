@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let menu = Bundle.main.decode([MenuSection].self, from: "minimstore.json")
+    
     var body: some View {
         Text("Hello, World!")
     }

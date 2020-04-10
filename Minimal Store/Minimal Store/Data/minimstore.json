@@ -18,7 +18,7 @@
                 "photoCredit": "Unsplash",
                 "price": 59.99,
                 "restrictions": ["SM", "SW"],
-                "Feature": "Foldable",
+                "feature": "Foldable",
                 "description": "Foldable comfortable chair. Made out of woods and high quality plastics. For a $59.99 you will get 2 of this"
             }
         ]
