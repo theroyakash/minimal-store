@@ -13,7 +13,26 @@ struct ContentView: View {
     let menu = Bundle.main.decode([MenuSection].self, from: "minimstore.json")
     
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            List{
+                ForEach(menu){ section in
+                    Section(header: Text(section.name)){
+                        ForEach(section.items){ item in
+                            ItemRow(item: item)
+                        }
+                    }
+                }
+            }.onAppear{
+                UITableView.appearance().separatorStyle = .none
+                
+            }.onDisappear{
+                UITableView.appearance().separatorStyle = .none
+                
+            }
+            
+        .navigationBarTitle(Text("Order Now"))
+        .listStyle(GroupedListStyle())
+        }
     }
 }
 
