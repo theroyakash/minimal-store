@@ -9,15 +9,20 @@
 import SwiftUI
 
 struct ItemDetail: View {
+    
+    @State private var showingItemAddedInCartAlert = false
+    
     var body: some View {
         
         
         
         Button(action: {
-            
+            self.showingItemAddedInCartAlert.toggle()
+            let haptics = UINotificationFeedbackGenerator()
+            haptics.notificationOccurred(.success)
         }){
-            Text("Add to Cart")
-            .font(.system(size: 20, weight: .semibold, design: .rounded))
+            Image(systemName: "bag.badge.plus")
+                .font(.system(size: 20, weight: .semibold, design: .default))
             .frame(width: 200, height: 60)
             .background(
                 ZStack {
@@ -43,8 +48,11 @@ struct ItemDetail: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
            .background(Color(#colorLiteral(red: 0.8980392157, green: 0.9333333333, blue: 1, alpha: 1)))
            .edgesIgnoringSafeArea(.all)
+        
+        .alert(isPresented: $showingItemAddedInCartAlert){
+        Alert(title: Text("Order added successfully"), message: Text("Your order is added to the cart successfully"), dismissButton: .default(Text("Heck Yeah, Add More")))
+        }
     }
-    
    
 }
 
