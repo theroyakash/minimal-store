@@ -9,7 +9,7 @@
                 "photoCredit": "Unsplash",
                 "price": 39.99,
                 "restrictions": ["AC"],
-                "Feature": "15 Watts per hour",
+                "feature": "15 Watts per hour",
                 "description": "Value for your bucks. Blends right in your home with most other products. Uses 15 Watts per hour, so very energy efficient product"
             },
             {
@@ -33,7 +33,7 @@
                 "photoCredit": "Unsplash",
                 "price": 4.99,
                 "restrictions": ["SM", "SN", "INJ"],
-                "Feature": "Diacetylmorphine: smack, horse, brown sugar, dope, H, junk, skag, skunk, white horse, China white; cheese (with OTC cold medicine and antihistamine)",
+                "feature": "Diacetylmorphine: smack, horse, brown sugar, dope, H, junk, skag, skunk, white horse, China white; cheese (with OTC cold medicine and antihistamine)",
                 "description": "Scriptable very high quality paper imported from the South India.\n\nFor a cheap price of $4.99 you will get a Rim of paper."
             },
             {
@@ -41,7 +41,7 @@
                 "name": "White Ceramic Mug",
                 "photoCredit": "Unsplash",
                 "price": 11.99,
-                "Feature": "Durable",
+                "feature": "Durable",
                 "restrictions": ["SW", "SM"],
                 "description": "White Ceramic mugs. For a $11.99 you will get a (pair) of mugs. Limited time deal. Buy Now"
             }
