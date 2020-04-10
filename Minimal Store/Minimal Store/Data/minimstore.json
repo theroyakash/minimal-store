@@ -19,7 +19,7 @@
                 "price": 59.99,
                 "restrictions": ["SM", "SW"],
                 "feature": "Foldable",
-                "description": "Foldable comfortable chair. Made out of woods and high quality plastics. For a $59.99 you will get 2 of this"
+                "description": "Foldable comfortable chair. Made out of woods and high quality plastics. For a $59.99 you will get 2 of this."
             }
         ]
     },
@@ -43,7 +43,7 @@
                 "price": 11.99,
                 "feature": "Durable",
                 "restrictions": ["SW", "SM"],
-                "description": "White Ceramic mugs. For a $11.99 you will get a (pair) of mugs. Limited time deal. Buy Now"
+                "description": "White Ceramic mugs. For a $11.99 you will get a (pair) of mugs. Limited time deal."
             }
         ]
     }

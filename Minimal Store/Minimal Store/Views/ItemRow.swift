@@ -14,7 +14,7 @@ struct ItemRow: View {
     
     var body: some View {
         
-        NavigationLink(destination: ItemDetail()){
+        NavigationLink(destination: ItemDetail(item: item)){
         
             VStack(alignment: .leading){
                 Image(item.mainImage)
